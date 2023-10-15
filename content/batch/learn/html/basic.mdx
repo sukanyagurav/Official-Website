@@ -38,6 +38,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 # HTML CheatSheet
 
 ## Basic Structure
+  HTML (HyperText Markup Language) is a markup language used to structure and organize the content on a web page. It uses various tags to define the different elements on a page, such as headings, paragraphs, and links.
 
 ```html
 
@@ -54,6 +55,9 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Headings
+  The HTML heading tags ( ```<h1>``` to ```<h6>``` ) are used to add headings to a webpage.
+  In the below example, we have used tags ```<h1>``` to ```<h6>``` to create headings of varying sizes and importance.
+  The ```<h1>``` tag denotes the most important heading on a webpage. Similarly, ```<h6>``` denotes the least important heading.
 
 ```html
 
@@ -67,6 +71,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Paragraphs
+  The HTML ```<p>``` tag is used to create paragraphs. HTML paragraphs always start on a new line. For example,
 
 ```html 
 
@@ -74,15 +79,8 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 
 ```
 
-## Line Break
-
-```html
-
-<p>This is the first line.<br>This is the second line.</p>
-
-```
-
 ## Horizontal Line
+  The HTML Horizontal rule tag, ```<hr>```, it is used when there is a change of topic or you need to specify separation between content.The ```<hr>``` tag is an empty tag, i.e. it doesn't require a closing tag.
 
 ```html
 
@@ -91,6 +89,8 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Break Line
+  The HTML Line Break tag is used to apply a line break and start your text in the new line. In HTML, we use the ```<br>``` tag to create a line break. For example,
+  In the below code, if you look carefully, you can find there is no closing tag for ```<br>```. It's because the ```<br>``` tag is an empty tag, which means it doesn't require a closing tag.
 
 ```html
 
@@ -99,6 +99,9 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Links
+  HTML links or hyperlinks connect one resource on the web to another. The resource may be an image, a web page, a program, a video clip, an audio clip, an element within a web page, etc, or anything that can be hosted on the internet.
+
+  We use the HTML ```<a>``` tag to create hyperlinks.
 
 ```html
 
@@ -107,8 +110,10 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Lists
+  HTML lists are used to display related information in an easy-to-read and concise way as lists.
 
 ### Unordered List
+  The unordered list is used to represent data in a list for which the order of items does not matter. In HTML, we use the ```<ul>``` tag to create unordered lists. Each item of the list must be a ```<li>``` tag which represents list items. For example,
 
 ```html
 
@@ -119,7 +124,8 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 
 ```
 
-### Ordered List
+### Ordered List 
+  The ordered list is used to represent data in a list for which the order of items has significance. The ```<ol>``` tag is used to create ordered lists. Similar to unordered lists, each item in the ordered list must be a ```<li>``` tag. For example,
 
 ```html
 
@@ -131,6 +137,12 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Tables
+  The HTML table tag (```<table>```) is used to represent data in a structured way by creating a table. For example,
+  In the above example, you can see we have used multiple tags to create a table in HTML.
+  - ```<table>``` - The ```<table>```tag is used to define a table.
+  - ```<tr>``` - The ```<tr>``` tag is used to define a row in a table. The table row can include either table heading, ```<th>``` or table data, ```<td>```
+  - ```<td>``` - The ```<td>``` tag is used to define table cells (data). The table cells store data to be displayed in the table.
+  - ```<th>``` - The ```<th>``` tag is used to define a table header. It is generally the top row of the table.
 
 ```html 
 
@@ -156,6 +168,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Forms
+  An HTML Form is a section of the document that collects input from the user. The input from the user is generally sent to a server (Web servers, Mail clients, etc). We use the HTML ```<form>``` element to create forms in HTML.
 
 ```html
 
@@ -191,6 +204,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Images
+  The HTML ```<img>``` tag embeds an image within the HTML web page. For example,
 
 ```html
 
@@ -199,6 +213,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Iframes
+  The HTML ```<iframe>``` tag is used to embed a webpage within a webpage. It is also called an inline frame. For example,
 
 ### Youtube Video
 
@@ -217,6 +232,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Audio
+  The HTML ```<audio>``` tag is used to embed a media player which supports audio playback into the HTML page. We use the HTML ```<audio>``` tag along with the ```<source>``` tag to add the audio player. For example,
 
 ```html
 
@@ -225,6 +241,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ## Video
+  The HTML ```<video>``` tag is used to embed a media player which supports video playback into the HTML page. We use the HTML ```<video>``` tag and the ```<source>``` tag to show the video. For example,
 
 ```html
 
@@ -235,6 +252,8 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ## Semantic Tags
 
 ### Header
+  The ```<header>``` element represents a container for introductory content or a set of navigational links. It may contain some heading elements but also a logo, a search form, an author name, and other elements. For example,
+  You can use several ```<header>``` elements in one document, but a  ```<header>``` element cannot be placed within a ```<footer>``` , ```<address>``` or another ```<header>``` element.
 
 ```html
 
@@ -252,6 +271,8 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ### Main
+  The ```<main>``` tag specifies the main content of a document.
+  The content inside the ```<main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms. For example,
 
 ```html
 
@@ -280,6 +301,7 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ### Aside
+    The ```<aside>``` tag is used to represent a portion of a document that is indirectly related to the main content. It is most commonly used as a sidebar in the document. It does not render anything special in the browser. For example,
 
 ```html
 
@@ -294,6 +316,16 @@ Want to improve this page? Raise a issue on [@github](https://github.com/ManishB
 ```
 
 ### Footer
+  The HTML ```<footer>``` tag is a semantic HTML tag that is used to define the footer of the HTML document or section.
+
+  A ```<footer>``` element typically contains:
+  - authorship information
+  - copyright information
+  - contact information
+  - sitemap
+  - back to top links
+  - related documents
+  For example,
 
 ```html
 
